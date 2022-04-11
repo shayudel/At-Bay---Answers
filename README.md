@@ -1,5 +1,4 @@
 # At-Bay---Answers
-At Bay
 
 ## Question 2 – second section
 I chose to display the range between 9.0-10.0 because I have learned that it is considered as "critical". Having CVSS in the critical range means that CVE most severe and easiest to exploit.
