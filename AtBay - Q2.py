@@ -30,7 +30,7 @@ dist_df = sev_df.to_frame()
 # In[5]:
 
 
-#changing (-0.011,1.0] distibution to[0.0,1.0]
+#changing (-0.011,1.0] distibution to[0.0,1.0] there are no cvvs less than 0
 df[df['cvss'] < 0]
 dist_df = dist_df.rename({pd.Interval(-0.011,1.0,closed = 'right') : pd.Interval(0.0,1.0,closed = 'both')})
 
